@@ -13,7 +13,7 @@
 
 ## Canva
 
-[IESC Design File]((https://www.canva.com/design))
+[IESC Design File](https://www.canva.com/design)
 
 ## Node.js
 
