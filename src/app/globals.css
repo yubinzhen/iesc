@@ -1,1 +1,13 @@
+@import url('https://googleapis.com');
 @import "tailwindcss";
+
+@theme {
+  --color-iesc-lightYellow-50: #fcfcef;
+  --color-iesc-darkBrown-100: #401f18;
+  --color-iesc-lightGray-50: #dde1e3;
+  --color-nsbe-red-100: #b14c4c;
+  --color-nsbe-vividRed-200: #ec5151;
+
+  --font-passionOne: "Passion_One";
+  --font-beVietnam: "Be_Vietnam";
+}
