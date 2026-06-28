@@ -1,8 +1,18 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Be_Vietnam_Pro, Inter, Passion_One } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
 
 const inter = Inter({ subsets: ["latin"] });
+const passionOne = Passion_One({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-passion-one",
+});
+const beVietnam = Be_Vietnam_Pro({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-be-vietnam",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -16,7 +26,9 @@ type LayoutProps = {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} ${passionOne.variable} ${beVietnam.variable}`}
+      >
         <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
       </body>
     </html>

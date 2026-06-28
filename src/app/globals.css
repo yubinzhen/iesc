@@ -1,13 +1,32 @@
-@import url('https://googleapis.com');
 @import "tailwindcss";
 
 @theme {
   --color-iesc-lightYellow-50: #fcfcef;
   --color-iesc-darkBrown-100: #401f18;
   --color-iesc-lightGray-50: #dde1e3;
-  --color-nsbe-red-100: #b14c4c;
-  --color-nsbe-vividRed-200: #ec5151;
+  --color-iesc-red-100: #b14c4c;
+  --color-iesc-vividRed-200: #ec5151;
+}
 
-  --font-passionOne: "Passion_One";
-  --font-beVietnam: "Be_Vietnam";
+@layer utilities {
+  .font-iesc-beVietnam {
+    font-family: var(--font-be-vietnam), system-ui, sans-serif;
+  }
+
+  .font-iesc-passionOne {
+    font-family: var(--font-passion-one), system-ui, sans-serif;
+  }
+}
+
+body {
+  font-family: var(--font-be-vietnam), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-passion-one), system-ui, sans-serif;
 }
