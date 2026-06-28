@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import navigations from "@/data/navigation";
 
-const navBar = () => {
+const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const path = usePathname();
 
@@ -74,4 +74,4 @@ const navBar = () => {
   );
 };
 
-export default navBar;
+export default NavBar;
