@@ -6,6 +6,7 @@
   --color-iesc-lightGray-50: #dde1e3;
   --color-iesc-red-100: #b14c4c;
   --color-iesc-vividRed-200: #ec5151;
+  --color-iesc-pastelGray-100: #c8bbb1;
 }
 
 @layer utilities {
