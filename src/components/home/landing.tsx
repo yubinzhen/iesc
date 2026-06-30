@@ -9,10 +9,10 @@ const Landing = () => {
         SUBSTANCE COLLECTIVE
       </div>
 
-      <div className="font-iesc-beVietnam text-iesc-darkBrown-100 mt-2 w-1/2 text-lg md:text-xl">
+      <p className="font-iesc-beVietnam text-iesc-darkBrown-100 mt-2 w-1/2 text-lg md:text-xl">
         Creating conversation and advancing understanding of substance use
         through data-driven insights and community dialogue.
-      </div>
+      </p>
 
       <Image src={HomeLanding} alt="Landing" className="mt-9 object-cover" />
     </div>

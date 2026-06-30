@@ -8,11 +8,11 @@ const Mission = () => {
       <div className="bg-iesc-darkBrown-100 w-4/9">
         <Image src={CigVape} alt="Cigarette and Vape Image" className="p-3" />
 
-        <div className="font-iesc-beVietnam text-iesc-lightYellow-50 p-7 text-center text-lg md:text-xl">
+        <p className="font-iesc-beVietnam text-iesc-lightYellow-50 p-7 text-center text-lg md:text-xl">
           Within the Inland Empire, over 32,000 residents do not possess access
           to substance use treatment — leaving many unable to acquire resources
           needed to facilitate recovery and healing.
-        </div>
+        </p>
       </div>
 
       <div className="bg-iesc-red-100 w-5/9">
@@ -20,19 +20,19 @@ const Mission = () => {
           MISSION <br></br> AND VISION
         </div>
 
-        <div className="font-iesc-beVietnam text-iesc-lightGray-50 p-7 text-center text-lg md:text-xl">
+        <p className="font-iesc-beVietnam text-iesc-lightGray-50 p-7 text-center text-lg md:text-xl">
           mission: To address substance use disparities associated with tobacco,
           nicotine, and opioid dependence within the Inland Empire through a
           community-based public health initiative that integrates local
           data-driven research and digital prevention outreach to promote
           long-term community well-being.
-        </div>
+        </p>
 
-        <div className="font-iesc-beVietnam text-iesc-lightGray-50 px-7 text-center text-lg md:text-xl">
+        <p className="font-iesc-beVietnam text-iesc-lightGray-50 px-7 text-center text-lg md:text-xl">
           vision: An IE in which members of the community are granted access
           towards supportive infrastructures that cultivate generational health
           through the provision of knowledge and accessible resources.
-        </div>
+        </p>
       </div>
     </div>
   );
