@@ -4,7 +4,7 @@ import Magnify from "@/public/resources/magnify.png";
 
 const Learn = () => {
   return (
-    <div className="bg-iesc-pastelRed-100 flex flex-row pt-24">
+    <div className="bg-iesc-pastelRed-100 flex flex-row pt-20 pb-9">
       <div className="w-4/9 px-10">
         <Image src={Tabs} alt="Tabs" className="mb-3 w-lg" />
       </div>
